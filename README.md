@@ -122,6 +122,22 @@ Displayed in Browser
 
 ## 📷 Screenshots
 
+### Project structure in VS code
+
+
+<img width="975" height="566" alt="image" src="https://github.com/user-attachments/assets/7f91c931-aa0d-4fb1-83bf-0a97665859b5" />
+The project structure in Visual Studio Code showing the frontend source files used to develop the application.
+
+---
+
+### n8n Workflow
+
+<img width="1902" height="941" alt="image" src="https://github.com/user-attachments/assets/fdcf5999-27e4-4be7-a2d4-998d8792a094" />
+The backend automation workflow connecting the frontend, n8n webhook, Google Gemini Vision, and the response returned to the user.
+
+---
+
+
 ### Home Page
 
 <img width="1587" height="830" alt="image" src="https://github.com/user-attachments/assets/697e256e-cf90-44a4-a3c3-82accec50ec5" />
@@ -136,13 +152,7 @@ A microscopy image uploaded successfully and ready to be analyzed by the AI syst
 
 ---
 
-### Project structure in VS code
 
-
-<img width="975" height="566" alt="image" src="https://github.com/user-attachments/assets/7f91c931-aa0d-4fb1-83bf-0a97665859b5" />
-The project structure in Visual Studio Code showing the frontend source files used to develop the application.
-
----
 
 ### AI Analysis Result
 The AI-generated analysis report showing image interpretation, possible microorganism suggestions, and recommended confirmatory laboratory tests.
@@ -151,13 +161,6 @@ The AI-generated analysis report showing image interpretation, possible microorg
 
 <img width="1337" height="825" alt="image" src="https://github.com/user-attachments/assets/57bb735b-fcd2-4d01-8d10-954f0f6723dc" />
 <img width="1195" height="842" alt="image" src="https://github.com/user-attachments/assets/2446a640-6933-409b-9833-c9143dd38850" />
-
----
-
-### n8n Workflow
-
-<img width="1902" height="941" alt="image" src="https://github.com/user-attachments/assets/fdcf5999-27e4-4be7-a2d4-998d8792a094" />
-The backend automation workflow connecting the frontend, n8n webhook, Google Gemini Vision, and the response returned to the user.
 
 ---
 
@@ -183,7 +186,6 @@ Upload a microscopy image and click **Analyze Image** to receive the AI-generate
 
 ---
 
-## 🔒 Security
 
 ## 🔒 Security
 
