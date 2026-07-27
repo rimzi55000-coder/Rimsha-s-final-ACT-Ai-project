@@ -59,7 +59,7 @@ analyzeBtn.addEventListener("click", async () => {
         // Your n8n webhook URL
 
         const response = await fetch(
-            "https://rimzi.app.n8n.cloud/webhook-test/microscan-ai",
+            "https://rimzi.app.n8n.cloud/webhook/microscan-ai",
             {
                 method: "POST",
                 body: formData
