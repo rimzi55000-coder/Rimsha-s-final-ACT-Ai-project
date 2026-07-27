@@ -9,7 +9,7 @@ The system is intended to streamline the initial review of microscopic images by
 
 ### 🚀 Live Application
 
-**[Open MicroScan AI](https://rimsha-s-final-act-ai-project-pd14-i7cjcmv8f.vercel.app)**
+**[Open MicroScan AI](https://rimsha-s-final-act-ai-project-fr4j.vercel.app/)**
 
 ---
 
