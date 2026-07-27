@@ -1,0 +1,270 @@
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+
+
+body{
+
+    font-family:
+    "Segoe UI",
+    Arial,
+    sans-serif;
+
+    background:
+    linear-gradient(
+    135deg,
+    #071426,
+    #12395c
+    );
+
+    min-height:100vh;
+
+    color:white;
+
+}
+
+
+
+.container{
+
+    width:90%;
+
+    max-width:900px;
+
+    margin:auto;
+
+    padding:30px;
+
+
+}
+
+
+
+header{
+
+    text-align:center;
+
+    margin-bottom:30px;
+
+}
+
+
+
+header h1{
+
+    font-size:42px;
+
+    color:#55d6ff;
+
+}
+
+
+
+header p{
+
+    font-size:18px;
+
+    color:#c7e9ff;
+
+}
+
+
+
+.card{
+
+
+    background:
+    rgba(255,255,255,0.1);
+
+
+    backdrop-filter:
+    blur(10px);
+
+
+    border-radius:20px;
+
+
+    padding:30px;
+
+
+    margin-bottom:25px;
+
+
+    box-shadow:
+    0 10px 30px rgba(0,0,0,0.3);
+
+
+}
+
+
+
+.card h2{
+
+    margin-bottom:15px;
+
+    color:#8be9ff;
+
+}
+
+
+
+.description{
+
+    line-height:1.6;
+
+    margin-bottom:20px;
+
+}
+
+
+
+input[type="file"]{
+
+
+    background:white;
+
+    color:black;
+
+    padding:12px;
+
+    width:100%;
+
+    border-radius:10px;
+
+    margin-bottom:20px;
+
+}
+
+
+
+.preview{
+
+    text-align:center;
+
+}
+
+
+
+.preview img{
+
+    max-width:350px;
+
+    max-height:350px;
+
+    border-radius:15px;
+
+    margin:20px;
+
+    display:none;
+
+    border:
+    3px solid #55d6ff;
+
+
+}
+
+
+
+button{
+
+
+    width:100%;
+
+
+    padding:15px;
+
+
+    border:none;
+
+
+    border-radius:12px;
+
+
+    background:
+    #00c6ff;
+
+
+    color:white;
+
+
+    font-size:18px;
+
+
+    font-weight:bold;
+
+
+    cursor:pointer;
+
+
+    transition:0.3s;
+
+
+}
+
+
+
+button:hover{
+
+
+    background:#008cff;
+
+
+    transform:scale(1.03);
+
+
+}
+
+
+
+.result-card{
+
+
+    min-height:250px;
+
+
+}
+
+
+
+#result{
+
+
+    background:
+
+    rgba(0,0,0,0.25);
+
+
+    padding:20px;
+
+
+    border-radius:15px;
+
+
+    line-height:1.6;
+
+
+    white-space:pre-wrap;
+
+
+}
+
+
+
+footer{
+
+
+    text-align:center;
+
+
+    color:#b5dfff;
+
+
+    margin-top:30px;
+
+
+}

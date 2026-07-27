@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MicroScan AI - Microscopy Analyzer</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+<div class="container">
+
+
+    <header>
+
+        <h1>🔬 MicroScan AI</h1>
+
+        <p>
+            AI-powered microscopic image analysis using Gemini Vision
+        </p>
+
+    </header>
+
+
+
+    <div class="card">
+
+
+        <h2>Upload Stained Microscope Image</h2>
+
+
+        <p class="description">
+
+            Upload a stained microscopy image. 
+            MicroScan AI will analyze morphology,
+            suggest possible organisms, and recommend
+            confirmatory laboratory tests.
+
+        </p>
+
+
+
+        <input 
+        type="file"
+        id="imageUpload"
+        accept="image/*">
+
+
+
+        <div class="preview">
+
+            <img id="imagePreview" 
+            src=""
+            alt="Image Preview">
+
+        </div>
+
+
+
+        <button id="analyzeBtn">
+
+            Analyze Image
+
+        </button>
+
+
+    </div>
+
+
+
+    <div class="card result-card">
+
+
+        <h2>AI Analysis Report</h2>
+
+
+        <div id="result">
+
+            Your microscopy analysis will appear here.
+
+        </div>
+
+
+    </div>
+
+
+
+    <footer>
+
+        <p>
+            MicroScan AI | AI-assisted microbiological image interpretation
+        </p>
+
+    </footer>
+
+
+</div>
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
