@@ -44,7 +44,7 @@ MicroScan AI addresses this problem by allowing users to upload microscopy image
 
 ---
 
-## 🤖 AI Feature
+## 🤖 - AI-powered analysis of uploaded stained microscopy images
 
 The AI functionality is implemented using **Google Gemini Vision** through an **n8n Cloud workflow**.
 
@@ -99,7 +99,8 @@ The AI is instructed to:
 User
    │
    ▼
-Frontend (HTML/CSS/JavaScript)
+MicroScan AI Frontend
+(HTML, CSS & JavaScript)
    │
    ▼
 n8n Cloud Webhook
@@ -108,13 +109,13 @@ n8n Cloud Webhook
 Google Gemini Vision API
    │
    ▼
-AI Analysis
+AI Response
    │
    ▼
-Response Webhook
+Response to Webhook
    │
    ▼
-Analysis Displayed to User
+Displayed in Browser
 ```
 
 ---
@@ -123,8 +124,15 @@ Analysis Displayed to User
 
 ### Home Page
 
-<img width="1048" height="790" alt="image" src="https://github.com/user-attachments/assets/0c14d8bc-bd39-4acc-b0e2-728a685ca7fc" />
+<img width="1587" height="830" alt="image" src="https://github.com/user-attachments/assets/697e256e-cf90-44a4-a3c3-82accec50ec5" />
+
 The main interface of MicroScan AI where users can upload stained microscopy images for AI-powered analysis.
+
+---
+
+### Image Upload
+<img width="1371" height="769" alt="image" src="https://github.com/user-attachments/assets/2cad02ed-6450-4ddb-ac40-adc30f62ce8e" />
+A microscopy image uploaded successfully and ready to be analyzed by the AI system.
 
 ---
 
@@ -134,14 +142,15 @@ The main interface of MicroScan AI where users can upload stained microscopy ima
 <img width="975" height="566" alt="image" src="https://github.com/user-attachments/assets/7f91c931-aa0d-4fb1-83bf-0a97665859b5" />
 The project structure in Visual Studio Code showing the frontend source files used to develop the application.
 
-
 ---
 
 ### AI Analysis Result
+The AI-generated analysis report showing image interpretation, possible microorganism suggestions, and recommended confirmatory laboratory tests.
 
-<img width="1380" height="847" alt="image" src="https://github.com/user-attachments/assets/77816847-67ee-48ee-852f-569f987aee7f" />
+<img width="1193" height="834" alt="image" src="https://github.com/user-attachments/assets/214d924e-ceb3-4290-9675-15afdde3f15c" />
 
-
+<img width="1337" height="825" alt="image" src="https://github.com/user-attachments/assets/57bb735b-fcd2-4d01-8d10-954f0f6723dc" />
+<img width="1195" height="842" alt="image" src="https://github.com/user-attachments/assets/2446a640-6933-409b-9833-c9143dd38850" />
 
 ---
 
@@ -176,7 +185,9 @@ Upload a microscopy image and click **Analyze Image** to receive the AI-generate
 
 ## 🔒 Security
 
-The Google Gemini API key is securely stored within n8n Cloud credentials and is **not exposed in the frontend or GitHub repository**.
+## 🔒 Security
+
+The application does not expose the Google Gemini API key in the frontend. API requests are securely handled through an n8n Cloud workflow.
 
 ---
 
@@ -188,6 +199,7 @@ The Google Gemini API key is securely stored within n8n Cloud credentials and is
 - Confidence scores for AI predictions
 - Support for additional microscopy image types
 - Improved report formatting and visualization
+-  Support for multiple staining techniques
 
 ---
 
