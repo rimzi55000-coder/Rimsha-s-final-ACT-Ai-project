@@ -1,7 +1,8 @@
 # 🔬 MicroScan AI
 
-MicroScan AI is an AI-powered web application that analyzes stained microscopy images using Google Gemini Vision. It helps biology and microbiology students, laboratory trainees, and researchers by providing AI-generated image interpretations, possible microorganism suggestions, and recommended confirmatory laboratory tests.
+MicroScan AI is an AI-powered web application designed to assist in the preliminary interpretation of stained microscope images. By leveraging Google's Gemini AI model and custom prompt engineering, the application generates structured laboratory-style reports that include morphological observations, ranked possible organisms, differential diagnoses, and recommendations for confirmatory laboratory tests.
 
+The system is intended to streamline the initial review of microscopic images by presenting information in a clear and organized format. AI-generated results are intended to support the interpretation process and should be considered alongside laboratory findings and professional expertise. Definitive organism identification requires appropriate confirmatory laboratory testing and expert evaluation.
 ---
 
 ## 🌐 Live Demo
